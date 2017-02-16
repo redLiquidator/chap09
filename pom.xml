@@ -25,11 +25,11 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.mybatis.spring.boot</groupId>
-			<artifactId>mybatis-spring-boot-starter</artifactId>
-			<version>1.2.0</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.mybatis.spring.boot</groupId> -->
+<!-- 			<artifactId>mybatis-spring-boot-starter</artifactId> -->
+<!-- 			<version>1.2.0</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
@@ -49,6 +49,31 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+			
+<!-- 			JSP precompiler 	 -->
+		<dependency>
+    		<groupId>org.apache.tomcat.embed</groupId>
+    		<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
+
+<!--      			Bootstrap    -->
+        <dependency>
+  			  <groupId>org.webjars</groupId>
+			  <artifactId>bootstrap</artifactId>
+  			  <version>3.3.7-1</version>
+		</dependency>
+<!-- 		         Animate      -->
+		<dependency>
+    		   <groupId>org.webjars</groupId>
+    		   <artifactId>animate.css</artifactId>
+    		   <version>3.5.2</version>
+		</dependency>
+<!-- 		JSTL(JSP standard Tag Library) -->
+		<dependency>
+   			 <groupId>javax.servlet</groupId>
+    		<artifactId>jstl</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
